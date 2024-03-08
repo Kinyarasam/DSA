@@ -21,3 +21,19 @@ else:
 ```
 
 ## Binary Search
+The `binary_search.py` file contains the implementation of the binary search algorithm.
+
+## Usage
+```python
+# Example usage of binary search
+from binary search import binary_search
+
+my_list = [1, 2, 3, 4, 5]
+target = 3
+
+index = linear_search(my_list, target)
+if index != -1:
+    print("Element {t} found at index {i}".format(t=target, i=index))
+else:
+    print("Element {t} not found".format(target))
+```
